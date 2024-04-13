@@ -1,0 +1,4236 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using System;
+
+
+public class TicTacToe : MonoBehaviour
+{
+    Boolean checker;
+    int plusone;
+    public Text btnText1 = null;
+    public Text btnText2 = null;
+    public Text btnText3 = null;
+    public Text btnText4 = null;
+    public Text btnText5 = null;
+    public Text btnText6 = null;
+    public Text btnText7 = null;
+    public Text btnText8 = null;
+    public Text btnText9 = null;
+    public Text btnText10 = null;
+    public Text btnText11 = null;
+    public Text btnText12 = null;
+    public Text btnText13 = null;
+    public Text btnText14 = null;
+    public Text btnText15 = null;
+    public Text btnText16 = null;
+    public Text btnText17 = null;
+    public Text btnText18 = null;
+    public Text btnText19 = null;
+    public Text btnText20 = null;
+    public Text btnText21 = null;
+    public Text btnText22 = null;
+    public Text btnText23 = null;
+    public Text btnText24 = null;
+    public Text btnText25 = null;
+    public Text btnText26 = null;
+    public Text btnText27 = null;
+    public Text btnText28 = null;
+    public Text btnText29 = null;
+    public Text btnText30 = null;
+    public Text btnText31 = null;
+    public Text btnText32 = null;
+    public Text btnText33 = null;
+    public Text btnText34 = null;
+    public Text btnText35 = null;
+    public Text btnText36 = null;
+    public Text btnText37 = null;
+    public Text btnText38 = null;
+    public Text btnText39 = null;
+    public Text btnText40 = null;
+    public Text btnText41 = null;
+    public Text btnText42 = null;
+    public Text btnText43 = null;
+    public Text btnText44 = null;
+    public Text btnText45 = null;
+    public Text btnText46 = null;
+    public Text btnText47 = null;
+    public Text btnText48 = null;
+    public Text btnText49 = null;
+    public Text btnText50 = null;
+    public Text btnText51 = null;
+    public Text btnText52 = null;
+    public Text btnText53 = null;
+    public Text btnText54 = null;
+    public Text btnText55 = null;
+    public Text btnText56 = null;
+    public Text btnText57 = null;
+    public Text btnText58 = null;
+    public Text btnText59 = null;
+    public Text btnText60 = null;
+    public Text btnText61 = null;
+    public Text btnText62 = null;
+    public Text btnText63 = null;
+    public Text btnText64 = null;
+    public Text btnText65 = null;
+    public Text btnText66 = null;
+    public Text btnText67 = null;
+    public Text btnText68 = null;
+    public Text btnText69 = null;
+    public Text btnText70 = null;
+    public Text btnText71 = null;
+    public Text btnText72 = null;
+    public Text btnText73 = null;
+    public Text btnText74 = null;
+    public Text btnText75 = null;
+    public Text btnText76 = null;
+    public Text btnText77 = null;
+    public Text btnText78 = null;
+    public Text btnText79 = null;
+    public Text btnText80 = null;
+    public Text btnText81 = null;
+    public Text btnText82 = null;
+    public Text btnText83 = null;
+    public Text btnText84 = null;
+    public Text btnText85 = null;
+    public Text btnText86 = null;
+    public Text btnText87 = null;
+    public Text btnText88 = null;
+    public Text btnText89 = null;
+    public Text btnText90 = null;
+    public Text btnText91 = null;
+    public Text btnText92 = null;
+    public Text btnText93 = null;
+    public Text btnText94 = null;
+    public Text btnText95 = null;
+    public Text btnText96 = null;
+    public Text btnText97 = null;
+    public Text btnText98 = null;
+    public Text btnText99 = null;
+    public Text btnText100 = null;
+    public Text btnText101 = null;
+    public Text btnText102 = null;
+    public Text btnText103 = null;
+    public Text btnText104 = null;
+    public Text btnText105 = null;
+    public Text btnText106 = null;
+    public Text btnText107 = null;
+    public Text btnText108 = null;
+    public Text btnText109 = null;
+    public Text btnText110 = null;
+    public Text btnText111 = null;
+    public Text btnText112 = null;
+    public Text btnText113 = null;
+    public Text btnText114 = null;
+    public Text btnText115 = null;
+    public Text btnText116 = null;
+    public Text btnText117 = null;
+    public Text btnText118 = null;
+    public Text btnText119 = null;
+    public Text btnText120 = null;
+    public Text btnText121 = null;
+    public Text btnText122 = null;
+    public Text btnText123 = null;
+    public Text btnText124 = null;
+    public Text btnText125 = null;
+    public Text btnText126 = null;
+    public Text btnText127 = null;
+    public Text btnText128 = null;
+    public Text btnText129 = null;
+    public Text btnText130 = null;
+    public Text btnText131 = null;
+    public Text btnText132 = null;
+    public Text btnText133 = null;
+    public Text btnText134 = null;
+    public Text btnText135 = null;
+    public Text btnText136 = null;
+    public Text btnText137 = null;
+    public Text btnText138 = null;
+    public Text btnText139 = null;
+    public Text btnText140 = null;
+    public Text btnText141 = null;
+    public Text btnText142 = null;
+    public Text btnText143 = null;
+    public Text btnText144 = null;
+    public Text btnText145 = null;
+    public Text btnText146 = null;
+    public Text btnText147 = null;
+    public Text btnText148 = null;
+    public Text btnText149 = null;
+    public Text btnText150 = null;
+    public Text btnText151 = null;
+    public Text btnText152 = null;
+    public Text btnText153 = null;
+    public Text btnText154 = null;
+    public Text btnText155 = null;
+    public Text btnText156 = null;
+    public Text btnText157 = null;
+    public Text btnText158 = null;
+    public Text btnText159 = null;
+    public Text btnText160 = null;
+    public Text btnText161 = null;
+    public Text btnText162 = null;
+    public Text btnText163 = null;
+    public Text btnText164 = null;
+    public Text btnText165 = null;
+    public Text btnText166 = null;
+    public Text btnText167 = null;
+    public Text btnText168 = null;
+    public Text btnText169 = null;
+    public Text btnText170 = null;
+    public Text btnText171 = null;
+    public Text btnText172 = null;
+    public Text btnText173 = null;
+    public Text btnText174 = null;
+    public Text btnText175 = null;
+    public Text btnText176 = null;
+    public Text btnText177 = null;
+    public Text btnText178 = null;
+    public Text btnText179 = null;
+    public Text btnText180 = null;
+    public Text btnText181 = null;
+    public Text btnText182 = null;
+    public Text btnText183 = null;
+    public Text btnText184 = null;
+    public Text btnText185 = null;
+    public Text btnText186 = null;
+    public Text btnText187 = null;
+    public Text btnText188 = null;
+    public Text btnText189 = null;
+    public Text btnText190 = null;
+    public Text btnText191 = null;
+    public Text btnText192 = null;
+    public Text btnText193 = null;
+    public Text btnText194 = null;
+    public Text btnText195 = null;
+    public Text btnText196 = null;
+    public Text btnText197 = null;
+    public Text btnText198 = null;
+    public Text btnText199 = null;
+    public Text btnText200 = null;
+    public Text btnText201 = null;
+    public Text btnText202 = null;
+    public Text btnText203 = null;
+    public Text btnText204 = null;
+    public Text btnText205 = null;
+    public Text btnText206 = null;
+    public Text btnText207 = null;
+    public Text btnText208 = null;
+    public Text btnText209 = null;
+    public Text btnText210 = null;
+    public Text btnText211 = null;
+    public Text btnText212 = null;
+    public Text btnText213 = null;
+    public Text btnText214 = null;
+    public Text btnText215 = null;
+    public Text btnText216 = null;
+    public Text btnText217 = null;
+    public Text btnText218 = null;
+    public Text btnText219 = null;
+    public Text btnText220 = null;
+    public Text btnText221 = null;
+    public Text btnText222 = null;
+    public Text btnText223 = null;
+    public Text btnText224 = null;
+    public Text btnText225 = null;
+
+
+    public Text btnResetGame = null;
+    public Text btnNewGame = null;
+    public Text msgFeedback = null;
+
+    public Text txtPlayerX;
+    public Text txtPlayerO;
+
+    public void score()
+    {
+        if (btnText1.text == "X" && btnText2.text == "X" && btnText3.text == "X")
+        {
+            btnText1.color = Color.red;
+            btnText2.color = Color.red;
+            btnText3.color = Color.red;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText1.text == "X" && btnText4.text == "X" && btnText7.text == "X")
+        {
+            btnText1.color = Color.blue;
+            btnText4.color = Color.blue;
+            btnText7.color = Color.blue;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText1.text == "X" && btnText5.text == "X" && btnText9.text == "X")
+        {
+            btnText1.color = Color.red;
+            btnText5.color = Color.red;
+            btnText9.color = Color.red;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText3.text == "X" && btnText5.text == "X" && btnText7.text == "X")
+        {
+            btnText3.color = Color.gray;
+            btnText5.color = Color.gray;
+            btnText7.color = Color.gray;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText2.text == "X" && btnText5.text == "X" && btnText8.text == "X")
+        {
+            btnText2.color = Color.yellow;
+            btnText5.color = Color.yellow;
+            btnText8.color = Color.yellow;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText3.text == "X" && btnText6.text == "X" && btnText9.text == "X")
+        {
+            btnText3.color = Color.cyan;
+            btnText6.color = Color.cyan;
+            btnText9.color = Color.cyan;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText4.text == "X" && btnText5.text == "X" && btnText6.text == "X")
+        {
+            btnText4.color = Color.green;
+            btnText5.color = Color.green;
+            btnText6.color = Color.green;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText7.text == "X" && btnText8.text == "X" && btnText9.text == "X")
+        {
+            btnText7.color = Color.blue;
+            btnText8.color = Color.blue;
+            btnText9.color = Color.blue;
+
+            msgFeedback.text = "The Winner is Player X";
+            plusone = int.Parse(txtPlayerX.text);
+            txtPlayerX.text = Convert.ToString(plusone + 1);
+        }
+        //===========================================================================//
+        if (btnText1.text == "O" && btnText2.text == "O" && btnText3.text == "O")
+        {
+            btnText1.color = Color.red;
+            btnText2.color = Color.red;
+            btnText3.color = Color.red;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText1.text == "O" && btnText4.text == "O" && btnText7.text == "O")
+        {
+            btnText1.color = Color.blue;
+            btnText4.color = Color.blue;
+            btnText7.color = Color.blue;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText1.text == "O" && btnText5.text == "O" && btnText9.text == "O")
+        {
+            btnText1.color = Color.red;
+            btnText5.color = Color.red;
+            btnText9.color = Color.red;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText3.text == "O" && btnText5.text == "O" && btnText7.text == "O")
+        {
+            btnText3.color = Color.gray;
+            btnText5.color = Color.gray;
+            btnText7.color = Color.gray;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText2.text == "O" && btnText5.text == "O" && btnText8.text == "O")
+        {
+            btnText2.color = Color.yellow;
+            btnText5.color = Color.yellow;
+            btnText8.color = Color.yellow;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText3.text == "O" && btnText6.text == "O" && btnText9.text == "O")
+        {
+            btnText3.color = Color.cyan;
+            btnText6.color = Color.cyan;
+            btnText9.color = Color.cyan;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText4.text == "O" && btnText5.text == "O" && btnText6.text == "O")
+        {
+            btnText4.color = Color.green;
+            btnText5.color = Color.green;
+            btnText6.color = Color.green;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+        if (btnText7.text == "O" && btnText8.text == "O" && btnText9.text == "O")
+        {
+            btnText7.color = Color.blue;
+            btnText8.color = Color.blue;
+            btnText9.color = Color.blue;
+
+            msgFeedback.text = "The Winner is Player O";
+            plusone = int.Parse(txtPlayerO.text);
+            txtPlayerO.text = Convert.ToString(plusone + 1);
+        }
+
+    }
+
+        public void btnText1_Click()
+        {
+            if (checker == false)
+            {
+                btnText1.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText1.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText2_Click()
+        {
+            if (checker == false)
+            {
+                btnText2.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText2.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText3_Click()
+        {
+            if (checker == false)
+            {
+                btnText3.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText3.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText4_Click()
+        {
+            if (checker == false)
+            {
+                btnText4.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText4.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText5_Click()
+        {
+            if (checker == false)
+            {
+                btnText5.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText5.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText6_Click()
+        {
+            if (checker == false)
+            {
+                btnText6.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText6.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText7_Click()
+        {
+            if (checker == false)
+            {
+                btnText7.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText7.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText8_Click()
+        {
+            if (checker == false)
+            {
+                btnText8.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText8.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText9_Click()
+        {
+            if (checker == false)
+            {
+                btnText9.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText9.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText10_Click()
+        {
+            if (checker == false)
+            {
+                btnText10.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText10.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText11_Click()
+        {
+            if (checker == false)
+            {
+                btnText11.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText11.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText12_Click()
+        {
+            if (checker == false)
+            {
+                btnText12.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText12.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText13_Click()
+        {
+            if (checker == false)
+            {
+                btnText13.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText13.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+
+        public void btnText14_Click()
+        {
+            if (checker == false)
+            {
+                btnText14.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText14.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText15_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText15.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText15.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText16_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText16.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText16.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText17_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText17.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText17.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText18_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText18.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText18.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText19_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText19.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText19.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText20_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText20.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText20.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText21_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText21.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText21.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText22_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText22.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText22.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText23_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText23.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText23.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText24_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText24.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText24.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText25_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText25.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText25.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText26_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText26.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText26.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText27_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText27.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText27.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText28_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText28.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText28.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText29_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText29.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText29.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText30_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText30.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText30.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText31_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText31.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText31.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText32_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText32.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText32.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText33_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText33.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText33.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText34_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText34.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText34.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText35_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText35.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText35.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText36_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText36.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText36.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText37_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText37.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText37.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText38_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText38.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText38.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText39_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText39.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText39.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText40_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText40.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText40.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText41_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText41.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText41.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText42_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText42.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText42.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText43_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText43.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText43.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText44_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText44.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText44.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText45_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText45.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText45.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText46_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText46.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText46.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText47_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText47.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText47.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText48_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText48.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText48.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText49_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText49.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText49.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText50_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText50.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText50.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText51_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText51.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText51.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText52_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText52.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText52.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText53_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText53.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText53.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText54_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText54.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText54.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText55_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText55.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText55.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText56_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText56.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText56.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText57_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText57.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText57.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText58_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText58.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText58.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText59_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText59.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText59.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText60_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText60.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText60.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText61_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText61.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText61.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText62_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText62.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText62.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText63_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText63.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText63.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText64_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText64.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText64.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText65_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText65.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText65.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText66_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText66.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText66.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText67_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText67.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText67.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText68_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText68.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText68.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText69_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText69.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText69.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText70_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText70.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText70.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText71_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText71.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText71.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText72_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText72.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText72.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText73_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText73.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText73.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText74_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText74.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText74.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText75_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText75.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText75.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText76_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText76.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText76.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText77_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText77.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText77.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText78_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText78.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText78.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText79_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText79.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText79.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText80_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText80.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText80.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText81_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText81.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText81.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText82_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText82.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText82.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText83_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText83.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText83.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText84_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText84.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText84.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText85_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText85.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText85.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText86_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText86.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText86.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText87_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText87.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText87.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText88_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText88.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText88.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText89_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText89.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText89.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText90_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText90.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText90.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText91_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText91.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText91.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText92_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText92.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText92.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText93_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText93.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText93.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText94_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText94.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText94.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText95_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText95.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText95.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText96_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText96.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText96.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText97_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText97.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText97.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText98_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText98.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText98.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText99_Click()
+
+        {
+            if (checker == false)
+            {
+                btnText99.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText99.text = "O";
+                checker = false;
+            }
+            score();
+        }
+        public void btnText100_Click()
+                {
+            if (checker == false)
+            {
+                btnText100.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText100.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText101_Click()
+                {
+            if (checker == false)
+            {
+                btnText101.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText101.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText102_Click()
+                {
+            if (checker == false)
+            {
+                btnText102.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText102.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText103_Click()
+                {
+            if (checker == false)
+            {
+                btnText103.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText103.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText104_Click()
+                {
+            if (checker == false)
+            {
+                btnText104.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText104.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText105_Click()
+                {
+            if (checker == false)
+            {
+                btnText105.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText105.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText106_Click()
+                {
+            if (checker == false)
+            {
+                btnText106.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText106.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText107_Click()
+                {
+            if (checker == false)
+            {
+                btnText107.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText107.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText108_Click()
+                {
+            if (checker == false)
+            {
+                btnText108.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText108.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText109_Click()
+                {
+            if (checker == false)
+            {
+                btnText109.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText109.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText110_Click()
+                {
+            if (checker == false)
+            {
+                btnText110.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText110.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText111_Click()
+                {
+            if (checker == false)
+            {
+                btnText111.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText111.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText112_Click()
+                {
+            if (checker == false)
+            {
+                btnText112.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText112.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText113_Click()
+                {
+            if (checker == false)
+            {
+                btnText113.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText113.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText114_Click()
+                {
+            if (checker == false)
+            {
+                btnText114.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText114.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText115_Click()
+                {
+            if (checker == false)
+            {
+                btnText115.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText115.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText116_Click()
+                {
+            if (checker == false)
+            {
+                btnText116.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText116.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText117_Click()
+                {
+            if (checker == false)
+            {
+                btnText117.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText117.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText118_Click()
+                {
+            if (checker == false)
+            {
+                btnText118.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText118.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText119_Click()
+                {
+            if (checker == false)
+            {
+                btnText119.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText119.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText120_Click()
+                {
+            if (checker == false)
+            {
+                btnText120.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText120.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText121_Click()
+                {
+            if (checker == false)
+            {
+                btnText121.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText121.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText122_Click()
+                {
+            if (checker == false)
+            {
+                btnText122.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText122.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText123_Click()
+                {
+            if (checker == false)
+            {
+                btnText123.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText123.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText124_Click()
+                {
+            if (checker == false)
+            {
+                btnText124.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText124.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText125_Click()
+                {
+            if (checker == false)
+            {
+                btnText125.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText125.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText126_Click()
+                {
+            if (checker == false)
+            {
+                btnText126.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText126.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText127_Click()
+                {
+            if (checker == false)
+            {
+                btnText127.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText127.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText128_Click()
+                {
+            if (checker == false)
+            {
+                btnText128.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText128.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText129_Click()
+                {
+            if (checker == false)
+            {
+                btnText129.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText129.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText130_Click()
+                {
+            if (checker == false)
+            {
+                btnText130.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText130.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText131_Click()
+                {
+            if (checker == false)
+            {
+                btnText131.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText131.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText132_Click()
+                {
+            if (checker == false)
+            {
+                btnText132.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText132.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText133_Click()
+                {
+            if (checker == false)
+            {
+                btnText133.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText133.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText134_Click()
+                {
+            if (checker == false)
+            {
+                btnText134.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText134.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText135_Click()
+                {
+            if (checker == false)
+            {
+                btnText135.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText135.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText136_Click()
+                {
+            if (checker == false)
+            {
+                btnText136.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText136.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText137_Click()
+                {
+            if (checker == false)
+            {
+                btnText137.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText137.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText138_Click()
+                {
+            if (checker == false)
+            {
+                btnText138.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText138.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText139_Click()
+                {
+            if (checker == false)
+            {
+                btnText139.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText139.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText140_Click()
+                {
+            if (checker == false)
+            {
+                btnText140.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText140.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText141_Click()
+                {
+            if (checker == false)
+            {
+                btnText141.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText141.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText142_Click()
+                {
+            if (checker == false)
+            {
+                btnText142.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText142.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText143_Click()
+                {
+            if (checker == false)
+            {
+                btnText143.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText143.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText144_Click()
+                {
+            if (checker == false)
+            {
+                btnText144.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText144.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText145_Click()
+                {
+            if (checker == false)
+            {
+                btnText145.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText145.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText146_Click()
+                {
+            if (checker == false)
+            {
+                btnText146.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText146.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText147_Click()
+                {
+            if (checker == false)
+            {
+                btnText147.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText147.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText148_Click()
+                {
+            if (checker == false)
+            {
+                btnText148.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText148.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText149_Click()
+                {
+            if (checker == false)
+            {
+                btnText149.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText149.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText150_Click()
+                {
+            if (checker == false)
+            {
+                btnText150.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText150.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText151_Click()
+                {
+            if (checker == false)
+            {
+                btnText151.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText151.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText152_Click()
+                {
+            if (checker == false)
+            {
+                btnText152.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText152.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText153_Click()
+                {
+            if (checker == false)
+            {
+                btnText153.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText153.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText154_Click()
+                {
+            if (checker == false)
+            {
+                btnText154.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText154.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText155_Click()
+                {
+            if (checker == false)
+            {
+                btnText155.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText155.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText156_Click()
+                {
+            if (checker == false)
+            {
+                btnText156.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText156.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText157_Click()
+                {
+            if (checker == false)
+            {
+                btnText157.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText157.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText158_Click()
+                {
+            if (checker == false)
+            {
+                btnText158.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText158.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText159_Click()
+                {
+            if (checker == false)
+            {
+                btnText159.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText159.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText160_Click()
+                {
+            if (checker == false)
+            {
+                btnText160.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText160.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText161_Click()
+                {
+            if (checker == false)
+            {
+                btnText161.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText161.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText162_Click()
+                {
+            if (checker == false)
+            {
+                btnText162.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText162.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText163_Click()
+                {
+            if (checker == false)
+            {
+                btnText163.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText163.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText164_Click()
+                {
+            if (checker == false)
+            {
+                btnText164.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText164.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText165_Click()
+                {
+            if (checker == false)
+            {
+                btnText165.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText165.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText166_Click()
+                {
+            if (checker == false)
+            {
+                btnText166.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText166.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText167_Click()
+                {
+            if (checker == false)
+            {
+                btnText167.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText167.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText168_Click()
+                {
+            if (checker == false)
+            {
+                btnText168.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText168.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText169_Click()
+                {
+            if (checker == false)
+            {
+                btnText169.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText169.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText170_Click()
+                {
+            if (checker == false)
+            {
+                btnText170.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText170.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText171_Click()
+                {
+            if (checker == false)
+            {
+                btnText171.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText171.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText172_Click()
+                {
+            if (checker == false)
+            {
+                btnText172.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText172.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText173_Click()
+                {
+            if (checker == false)
+            {
+                btnText173.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText173.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText174_Click()
+                {
+            if (checker == false)
+            {
+                btnText174.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText174.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText175_Click()
+                {
+            if (checker == false)
+            {
+                btnText175.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText175.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText176_Click()
+                {
+            if (checker == false)
+            {
+                btnText176.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText176.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText177_Click()
+                {
+            if (checker == false)
+            {
+                btnText177.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText177.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText178_Click()
+                {
+            if (checker == false)
+            {
+                btnText178.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText178.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText179_Click()
+                {
+            if (checker == false)
+            {
+                btnText179.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText179.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText180_Click()
+                {
+            if (checker == false)
+            {
+                btnText180.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText180.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText181_Click()
+                {
+            if (checker == false)
+            {
+                btnText181.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText181.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText182_Click()
+                {
+            if (checker == false)
+            {
+                btnText182.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText182.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText183_Click()
+                {
+            if (checker == false)
+            {
+                btnText183.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText183.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText184_Click()
+                {
+            if (checker == false)
+            {
+                btnText184.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText184.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText185_Click()
+                {
+            if (checker == false)
+            {
+                btnText185.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText185.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText186_Click()
+                {
+            if (checker == false)
+            {
+                btnText186.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText186.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText187_Click()
+                {
+            if (checker == false)
+            {
+                btnText187.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText187.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText188_Click()
+                {
+            if (checker == false)
+            {
+                btnText188.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText188.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText189_Click()
+                {
+            if (checker == false)
+            {
+                btnText189.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText189.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText190_Click()
+                {
+            if (checker == false)
+            {
+                btnText190.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText190.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText191_Click()
+                {
+            if (checker == false)
+            {
+                btnText191.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText191.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText192_Click()
+                {
+            if (checker == false)
+            {
+                btnText192.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText192.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText193_Click()
+                {
+            if (checker == false)
+            {
+                btnText193.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText193.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText194_Click()
+                {
+            if (checker == false)
+            {
+                btnText194.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText194.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText195_Click()
+                {
+            if (checker == false)
+            {
+                btnText195.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText195.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText196_Click()
+                {
+            if (checker == false)
+            {
+                btnText196.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText196.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText197_Click()
+                {
+            if (checker == false)
+            {
+                btnText197.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText197.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText198_Click()
+                {
+            if (checker == false)
+            {
+                btnText198.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText198.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText199_Click()
+                {
+            if (checker == false)
+            {
+                btnText199.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText199.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText200_Click()
+                {
+            if (checker == false)
+            {
+                btnText200.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText200.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText201_Click()
+        {
+            if (checker == false)
+            {
+                btnText201.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText201.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText202_Click()
+        {
+            if (checker == false)
+            {
+                btnText202.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText202.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText203_Click()
+        {
+            if (checker == false)
+            {
+                btnText203.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText203.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText204_Click()
+                {
+            if (checker == false)
+            {
+                btnText204.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText204.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+        public void btnText205_Click()
+        {
+            if (checker == false)
+            {
+                btnText205.text = "X";
+                checker = true;
+            }
+            else
+            {
+                btnText205.text = "O";
+                checker = false;
+            }
+            score();
+        }
+
+    public void btnText206_Click()
+    {
+        if (checker == false)
+        {
+            btnText206.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText206.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText207_Click()
+    {
+        if (checker == false)
+        {
+            btnText207.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText207.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText208_Click()
+    {
+        if (checker == false)
+        {
+            btnText208.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText208.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText209_Click()
+    {
+        if (checker == false)
+        {
+            btnText209.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText209.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void btnText210_Click()
+    {
+        if (checker == false)
+        {
+            btnText210.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText210.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText211_Click()
+    {
+        if (checker == false)
+        {
+            btnText211.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText211.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText212_Click()
+    {
+        if (checker == false)
+        {
+            btnText212.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText212.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void btnText213_Click()
+    {
+        if (checker == false)
+        {
+            btnText213.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText213.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+
+    public void btnText214_Click()
+    {
+        if (checker == false)
+        {
+            btnText214.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText214.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void btnText215_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText215.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText215.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText216_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText216.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText216.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText217_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText217.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText217.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText218_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText218.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText218.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText219_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText219.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText219.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText220_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText220.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText220.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText221_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText221.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText221.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText222_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText222.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText222.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText223_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText223.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText223.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText224_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText224.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText224.text = "O";
+            checker = false;
+        }
+        score();
+    }
+    public void btnText225_Click()
+
+    {
+        if (checker == false)
+        {
+            btnText225.text = "X";
+            checker = true;
+        }
+        else
+        {
+            btnText225.text = "O";
+            checker = false;
+        }
+        score();
+    }
+
+    public void btnResetGame_CLick()
+    {
+        btnText1.text = "";
+        btnText2.text = "";
+        btnText3.text = "";
+        btnText4.text = "";
+        btnText5.text = "";
+        btnText6.text = "";
+        btnText7.text = "";
+        btnText8.text = "";
+        btnText9.text = "";
+        btnText10.text = "";
+        btnText11.text = "";
+        btnText12.text = "";
+        btnText13.text = "";
+        btnText14.text = "";
+        btnText15.text = "";
+        btnText16.text = "";
+        btnText17.text = "";
+        btnText18.text = "";
+        btnText19.text = "";
+        btnText20.text = "";
+        btnText21.text = "";
+        btnText22.text = "";
+        btnText23.text = "";
+        btnText24.text = "";
+        btnText25.text = "";
+        btnText26.text = "";
+        btnText27.text = "";
+        btnText28.text = "";
+        btnText29.text = "";
+        btnText30.text = "";
+        btnText31.text = "";
+        btnText32.text = "";
+        btnText33.text = "";
+        btnText34.text = "";
+        btnText35.text = "";
+        btnText36.text = "";
+        btnText37.text = "";
+        btnText38.text = "";
+        btnText39.text = "";
+        btnText40.text = "";
+        btnText41.text = "";
+        btnText42.text = "";
+        btnText43.text = "";
+        btnText44.text = "";
+        btnText45.text = "";
+        btnText46.text = "";
+        btnText47.text = "";
+        btnText48.text = "";
+        btnText49.text = "";
+        btnText50.text = "";
+        btnText51.text = "";
+        btnText52.text = "";
+        btnText53.text = "";
+        btnText54.text = "";
+        btnText55.text = "";
+        btnText56.text = "";
+        btnText57.text = "";
+        btnText58.text = "";
+        btnText59.text = "";
+        btnText60.text = "";
+        btnText61.text = "";
+        btnText62.text = "";
+        btnText63.text = "";
+        btnText64.text = "";
+        btnText65.text = "";
+        btnText66.text = "";
+        btnText67.text = "";
+        btnText68.text = "";
+        btnText69.text = "";
+        btnText70.text = "";
+        btnText71.text = "";
+        btnText72.text = "";
+        btnText73.text = "";
+        btnText74.text = "";
+        btnText75.text = "";
+        btnText76.text = "";
+        btnText77.text = "";
+        btnText78.text = "";
+        btnText79.text = "";
+        btnText80.text = "";
+        btnText81.text = "";
+        btnText82.text = "";
+        btnText83.text = "";
+        btnText84.text = "";
+        btnText85.text = "";
+        btnText86.text = "";
+        btnText87.text = "";
+        btnText88.text = "";
+        btnText89.text = "";
+        btnText90.text = "";
+        btnText91.text = "";
+        btnText92.text = "";
+        btnText93.text = "";
+        btnText94.text = "";
+        btnText95.text = "";
+        btnText96.text = "";
+        btnText97.text = "";
+        btnText98.text = "";
+        btnText99.text = "";
+        btnText100.text = "";
+        btnText101.text = "";
+        btnText102.text = "";
+        btnText103.text = "";
+        btnText104.text = "";
+        btnText105.text = "";
+        btnText106.text = "";
+        btnText107.text = "";
+        btnText108.text = "";
+        btnText109.text = "";
+        btnText110.text = "";
+        btnText111.text = "";
+        btnText112.text = "";
+        btnText113.text = "";
+        btnText114.text = "";
+        btnText115.text = "";
+        btnText116.text = "";
+        btnText117.text = "";
+        btnText118.text = "";
+        btnText119.text = "";
+        btnText120.text = "";
+        btnText121.text = "";
+        btnText122.text = "";
+        btnText123.text = "";
+        btnText124.text = "";
+        btnText125.text = "";
+        btnText126.text = "";
+        btnText127.text = "";
+        btnText128.text = "";
+        btnText129.text = "";
+        btnText130.text = "";
+        btnText131.text = "";
+        btnText132.text = "";
+        btnText133.text = "";
+        btnText134.text = "";
+        btnText135.text = "";
+        btnText136.text = "";
+        btnText137.text = "";
+        btnText138.text = "";
+        btnText139.text = "";
+        btnText140.text = "";
+        btnText141.text = "";
+        btnText142.text = "";
+        btnText143.text = "";
+        btnText144.text = "";
+        btnText145.text = "";
+        btnText146.text = "";
+        btnText147.text = "";
+        btnText148.text = "";
+        btnText149.text = "";
+        btnText150.text = "";
+        btnText151.text = "";
+        btnText152.text = "";
+        btnText153.text = "";
+        btnText154.text = "";
+        btnText155.text = "";
+        btnText156.text = "";
+        btnText157.text = "";
+        btnText158.text = "";
+        btnText159.text = "";
+        btnText160.text = "";
+        btnText161.text = "";
+        btnText162.text = "";
+        btnText163.text = "";
+        btnText164.text = "";
+        btnText165.text = "";
+        btnText166.text = "";
+        btnText167.text = "";
+        btnText168.text = "";
+        btnText169.text = "";
+        btnText170.text = "";
+        btnText171.text = "";
+        btnText172.text = "";
+        btnText173.text = "";
+        btnText174.text = "";
+        btnText175.text = "";
+        btnText176.text = "";
+        btnText177.text = "";
+        btnText178.text = "";
+        btnText179.text = "";
+        btnText180.text = "";
+        btnText181.text = "";
+        btnText182.text = "";
+        btnText183.text = "";
+        btnText184.text = "";
+        btnText185.text = "";
+        btnText186.text = "";
+        btnText187.text = "";
+        btnText188.text = "";
+        btnText189.text = "";
+        btnText190.text = "";
+        btnText191.text = "";
+        btnText192.text = "";
+        btnText193.text = "";
+        btnText194.text = "";
+        btnText195.text = "";
+        btnText196.text = "";
+        btnText197.text = "";
+        btnText198.text = "";
+        btnText199.text = "";
+        btnText200.text = "";
+        btnText201.text = "";
+        btnText202.text = "";
+        btnText203.text = "";
+        btnText204.text = "";
+        btnText205.text = "";
+        btnText206.text = "";
+        btnText207.text = "";
+        btnText208.text = "";
+        btnText209.text = "";
+        btnText210.text = "";
+        btnText211.text = "";
+        btnText212.text = "";
+        btnText213.text = "";
+        btnText214.text = "";
+        btnText215.text = "";
+        btnText216.text = "";
+        btnText217.text = "";
+        btnText218.text = "";
+        btnText219.text = "";
+        btnText220.text = "";
+        btnText221.text = "";
+        btnText222.text = "";
+        btnText223.text = "";
+        btnText224.text = "";
+        btnText225.text = "";
+
+        btnText1.color = Color.blue;
+        btnText2.color = Color.blue;
+        btnText3.color = Color.blue;
+        btnText4.color = Color.blue;
+        btnText5.color = Color.blue;
+        btnText6.color = Color.blue;
+        btnText7.color = Color.blue;
+        btnText8.color = Color.blue;
+        btnText9.color = Color.blue;
+        btnText10.color = Color.blue;
+        btnText11.color = Color.blue;
+        btnText12.color = Color.blue;
+        btnText13.color = Color.blue;
+        btnText14.color = Color.blue;
+        btnText15.color = Color.blue;
+        btnText16.color = Color.blue;
+        btnText17.color = Color.blue;
+        btnText18.color = Color.blue;
+        btnText19.color = Color.blue;
+        btnText20.color = Color.blue;
+        btnText21.color = Color.blue;
+        btnText22.color = Color.blue;
+        btnText23.color = Color.blue;
+        btnText24.color = Color.blue;
+        btnText25.color = Color.blue;
+        btnText26.color = Color.blue;
+        btnText27.color = Color.blue;
+        btnText28.color = Color.blue;
+        btnText29.color = Color.blue;
+        btnText30.color = Color.blue;
+        btnText31.color = Color.blue;
+        btnText32.color = Color.blue;
+        btnText33.color = Color.blue;
+        btnText34.color = Color.blue;
+        btnText35.color = Color.blue;
+        btnText36.color = Color.blue;
+        btnText37.color = Color.blue;
+        btnText38.color = Color.blue;
+        btnText39.color = Color.blue;
+        btnText40.color = Color.blue;
+        btnText41.color = Color.blue;
+        btnText42.color = Color.blue;
+        btnText43.color = Color.blue;
+        btnText44.color = Color.blue;
+        btnText45.color = Color.blue;
+        btnText46.color = Color.blue;
+        btnText47.color = Color.blue;
+        btnText48.color = Color.blue;
+        btnText49.color = Color.blue;
+        btnText50.color = Color.blue;
+        btnText51.color = Color.blue;
+        btnText52.color = Color.blue;
+        btnText53.color = Color.blue;
+        btnText54.color = Color.blue;
+        btnText55.color = Color.blue;
+        btnText56.color = Color.blue;
+        btnText57.color = Color.blue;
+        btnText58.color = Color.blue;
+        btnText59.color = Color.blue;
+        btnText60.color = Color.blue;
+        btnText61.color = Color.blue;
+        btnText62.color = Color.blue;
+        btnText63.color = Color.blue;
+        btnText64.color = Color.blue;
+        btnText65.color = Color.blue;
+        btnText66.color = Color.blue;
+        btnText67.color = Color.blue;
+        btnText68.color = Color.blue;
+        btnText69.color = Color.blue;
+        btnText70.color = Color.blue;
+        btnText71.color = Color.blue;
+        btnText72.color = Color.blue;
+        btnText73.color = Color.blue;
+        btnText74.color = Color.blue;
+        btnText75.color = Color.blue;
+        btnText76.color = Color.blue;
+        btnText77.color = Color.blue;
+        btnText78.color = Color.blue;
+        btnText79.color = Color.blue;
+        btnText80.color = Color.blue;
+        btnText81.color = Color.blue;
+        btnText82.color = Color.blue;
+        btnText83.color = Color.blue;
+        btnText84.color = Color.blue;
+        btnText85.color = Color.blue;
+        btnText86.color = Color.blue;
+        btnText87.color = Color.blue;
+        btnText88.color = Color.blue;
+        btnText89.color = Color.blue;
+        btnText90.color = Color.blue;
+        btnText91.color = Color.blue;
+        btnText92.color = Color.blue;
+        btnText93.color = Color.blue;
+        btnText94.color = Color.blue;
+        btnText95.color = Color.blue;
+        btnText96.color = Color.blue;
+        btnText97.color = Color.blue;
+        btnText98.color = Color.blue;
+        btnText99.color = Color.blue;
+        btnText100.color = Color.blue;
+        btnText101.color = Color.blue;
+        btnText102.color = Color.blue;
+        btnText103.color = Color.blue;
+        btnText104.color = Color.blue;
+        btnText105.color = Color.blue;
+        btnText106.color = Color.blue;
+        btnText107.color = Color.blue;
+        btnText108.color = Color.blue;
+        btnText109.color = Color.blue;
+        btnText110.color = Color.blue;
+        btnText111.color = Color.blue;
+        btnText112.color = Color.blue;
+        btnText113.color = Color.blue;
+        btnText114.color = Color.blue;
+        btnText115.color = Color.blue;
+        btnText116.color = Color.blue;
+        btnText117.color = Color.blue;
+        btnText118.color = Color.blue;
+        btnText119.color = Color.blue;
+        btnText120.color = Color.blue;
+        btnText121.color = Color.blue;
+        btnText122.color = Color.blue;
+        btnText123.color = Color.blue;
+        btnText124.color = Color.blue;
+        btnText125.color = Color.blue;
+        btnText126.color = Color.blue;
+        btnText127.color = Color.blue;
+        btnText128.color = Color.blue;
+        btnText129.color = Color.blue;
+        btnText130.color = Color.blue;
+        btnText131.color = Color.blue;
+        btnText132.color = Color.blue;
+        btnText133.color = Color.blue;
+        btnText134.color = Color.blue;
+        btnText135.color = Color.blue;
+        btnText136.color = Color.blue;
+        btnText137.color = Color.blue;
+        btnText138.color = Color.blue;
+        btnText139.color = Color.blue;
+        btnText140.color = Color.blue;
+        btnText141.color = Color.blue;
+        btnText142.color = Color.blue;
+        btnText143.color = Color.blue;
+        btnText144.color = Color.blue;
+        btnText145.color = Color.blue;
+        btnText146.color = Color.blue;
+        btnText147.color = Color.blue;
+        btnText148.color = Color.blue;
+        btnText149.color = Color.blue;
+        btnText150.color = Color.blue;
+        btnText151.color = Color.blue;
+        btnText152.color = Color.blue;
+        btnText153.color = Color.blue;
+        btnText154.color = Color.blue;
+        btnText155.color = Color.blue;
+        btnText156.color = Color.blue;
+        btnText157.color = Color.blue;
+        btnText158.color = Color.blue;
+        btnText159.color = Color.blue;
+        btnText160.color = Color.blue;
+        btnText161.color = Color.blue;
+        btnText162.color = Color.blue;
+        btnText163.color = Color.blue;
+        btnText164.color = Color.blue;
+        btnText165.color = Color.blue;
+        btnText166.color = Color.blue;
+        btnText167.color = Color.blue;
+        btnText168.color = Color.blue;
+        btnText169.color = Color.blue;
+        btnText170.color = Color.blue;
+        btnText171.color = Color.blue;
+        btnText172.color = Color.blue;
+        btnText173.color = Color.blue;
+        btnText174.color = Color.blue;
+        btnText175.color = Color.blue;
+        btnText176.color = Color.blue;
+        btnText177.color = Color.blue;
+        btnText178.color = Color.blue;
+        btnText179.color = Color.blue;
+        btnText180.color = Color.blue;
+        btnText181.color = Color.blue;
+        btnText182.color = Color.blue;
+        btnText183.color = Color.blue;
+        btnText184.color = Color.blue;
+        btnText185.color = Color.blue;
+        btnText186.color = Color.blue;
+        btnText187.color = Color.blue;
+        btnText188.color = Color.blue;
+        btnText189.color = Color.blue;
+        btnText190.color = Color.blue;
+        btnText191.color = Color.blue;
+        btnText192.color = Color.blue;
+        btnText193.color = Color.blue;
+        btnText194.color = Color.blue;
+        btnText195.color = Color.blue;
+        btnText196.color = Color.blue;
+        btnText197.color = Color.blue;
+        btnText198.color = Color.blue;
+        btnText199.color = Color.blue;
+        btnText200.color = Color.blue;
+        btnText201.color = Color.blue;
+        btnText202.color = Color.blue;
+        btnText203.color = Color.blue;
+        btnText204.color = Color.blue;
+        btnText205.color = Color.blue;
+        btnText206.color = Color.blue;
+        btnText207.color = Color.blue;
+        btnText208.color = Color.blue;
+        btnText209.color = Color.blue;
+        btnText210.color = Color.blue;
+        btnText211.color = Color.blue;
+        btnText212.color = Color.blue;
+        btnText213.color = Color.blue;
+        btnText214.color = Color.blue;
+        btnText215.color = Color.blue;
+        btnText216.color = Color.blue;
+        btnText217.color = Color.blue;
+        btnText218.color = Color.blue;
+        btnText219.color = Color.blue;
+        btnText220.color = Color.blue;
+        btnText221.color = Color.blue;
+        btnText222.color = Color.blue;
+        btnText223.color = Color.blue;
+        btnText224.color = Color.blue;
+        btnText225.color = Color.blue;
+       
+    }
+    public void btnNewGame_Click()
+    {
+        btnResetGame_CLick();
+        txtPlayerX.text = "";
+        txtPlayerO.text = "";
+    }
+}
